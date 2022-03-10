@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400&display=swap");
+body {
+  font-family: "fredoka", sans-serif;
+  font-weight: 400;
+  background-image: linear-gradient(
+    to right,
+    rgba(107, 29, 252, 0.877) 43.75%,
+    rgba(163, 32, 250, 0.705) 99.98%
+  );
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.49);
+  border-radius: 16px;
+  padding: 15px;
+  width: 20%;
+  color: white;
+}
+
+fieldset {
+  border: 3px solid rgba(177, 50, 177, 0.932);
+}
+
+legend {
+  border: 1px solid rgba(177, 50, 177, 0.932);
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(177, 50, 177, 0.932);
+  border-radius: 8px;
+}
+
+.inputbox {
+  position: relative;
+  margin-top: 40px;
+}
+.inputuser {
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  color: white;
+  font-size: 15px;
+  width: 100%;
+  letter-spacing: 2px;
+}
+
+.botao {
+  background: linear-gradient(
+    265.62deg,
+    rgba(254, 0, 91, 0.72) 0.68%,
+    rgba(0, 25, 254, 0.78) 100%
+  );
+  border: none;
+  width: 100%;
+  padding: 15px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: "fredoka";
+}
+.botao:hover {
+  background: linear-gradient(
+    65.62deg,
+    rgba(254, 0, 91, 0.72) 0.68%,
+    rgba(0, 25, 254, 0.78) 100%
+  );
+}
